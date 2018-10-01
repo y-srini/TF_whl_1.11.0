@@ -1,11 +1,13 @@
-# Repository for Tensorflow 1.11.0-rc1 
+# Repository for Tensorflow 1.11.0
+Released on 28 sep 2018
+(https://github.com/tensorflow/tensorflow/releases/tag/v1.11.0)
 
-Tensorflow 1.11.0-rc1 compiled from source to only support GPU usage on Debian 9 Stretch
+Tensorflow 1.11.0 compiled from source to support only GPU with compute compatibility 6.1, on Debian 9 Stretch
 
 
 ## Installation
 
-`pip3 install tensorflow-1.11.0rc1-cp36-cp36m-linux_x86_64.whl`
+`pip3 install tensorflow-1.11.0-cp36-cp36m-linux_x86_64.whl`
 
 
 ## Environment
@@ -14,15 +16,15 @@ Tensorflow 1.11.0-rc1 compiled from source to only support GPU usage on Debian 9
 | :-------------: | :-------------: |
 | Distro   | `Debian 9 (Stretch)`   |
 | Kernel   |  `linux-image-4.9.0-8-amd64`   |
-| GPU / Compute Capcity     |  `Nvidia GeForce GTX 1080 TI` / `6.1`  |
-| Tensorflow   |  `v1.11.0 rc1`   |
+| GPU / Compute Capcity     |  `Nvidia GeForce GTX 1080 Ti` / `6.1`  |
+| Tensorflow   |  `v1.11.0`   |
 | CUDA   |  `9.1.85-4+b1 amd64`   |
 | cuDNN   |  `7.1.3`   |
 | NCCL   |  `2.1.15`   |
 | GCC   |  `gcc-6`   |
 | Python   |  `3.6.6`   |
-| Bazel   |  `0.17.0`   |
-| Tested against NVIDIA Driver Runtime   |  `390.77`   |
+| Bazel   |  `0.17.2`   |
+| Tested against NVIDIA Driver Runtime   |  `390.87`   |
 
 
 
